@@ -30,7 +30,6 @@ import {
 // react-redux-firebase config, we are not using this right now but set it up anyway
 const rrfConfig = {
   useFirestoreForProfile: true, // Firestore for Profile instead of Realtime DB
-
   userProfile: 'users'
   // enableClaims: true // Get custom claims along with the profile
 };
